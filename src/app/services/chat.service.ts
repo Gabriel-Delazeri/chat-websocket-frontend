@@ -11,7 +11,7 @@ export class ChatService {
 
   constructor() {
     const stompConfig: StompConfig = {
-      url: 'ws://192.168.21.12:8080/ws',
+      url: 'ws://localhost:8080/ws',
       headers: {},
       heartbeat_in: 0,
       heartbeat_out: 20000,
